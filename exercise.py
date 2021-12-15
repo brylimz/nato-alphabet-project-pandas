@@ -26,10 +26,9 @@ with open("file1.txt", mode="r") as file1:
 # file 2
 with open("file2.txt", mode="r") as file2:
     new_format2 = file2.read().splitlines()
+
     print(new_format2)
 
-# compare before its cooked
-
 # make a list
-result = [i for i, j in zip(new_format1, new_format2) if i == j]
+result = [int(num) for num in new_format1 if num in new_format2]
 print(result)
