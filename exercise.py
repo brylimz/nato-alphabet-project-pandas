@@ -30,8 +30,6 @@ with open("file2.txt", mode="r") as file2:
 
 # compare before its cooked
 
-
-
 # make a list
-result = [i for i in new_format1 and new_format2 if new_format1 and new_format2]
+result = [i for i, j in zip(new_format1, new_format2) if i == j]
 print(result)
