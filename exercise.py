@@ -28,6 +28,10 @@ with open("file2.txt", mode="r") as file2:
     new_format2 = file2.read().splitlines()
     print(new_format2)
 
+# compare before its cooked
+
+
+
 # make a list
 result = [i for i in new_format1 and new_format2 if new_format1 and new_format2]
 print(result)
