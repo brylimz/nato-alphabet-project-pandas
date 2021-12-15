@@ -16,4 +16,6 @@ new_list = [letter for letter in name]
 range_list = [new_item * 2 for new_item in range(1, 5)]
 print(range_list)
 
-name = []
+name = ["Jhonny", "Bruno", "Ripper", "Ben"]
+new_candidate = [i.upper() for i in name if len(i) < 5]
+print(new_candidate)
