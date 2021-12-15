@@ -11,6 +11,7 @@ print(new_file2)
 
 # List compare
 abc = ""
+result = []
 print(result)
 
 
