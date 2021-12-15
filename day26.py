@@ -19,7 +19,12 @@
 # name = ["Jhonny", "Bruno", "Ripper", "Ben"]
 # new_candidate = [i.upper() for i in name if len(i) < 5]
 # print(new_candidate)
-number = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
-squared_number = [i*i for i in number]
+# number = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+# squared_number = [i**2 for i in number]
+#
+# print(squared_number)
 
-print(squared_number)
+number = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+result = [i for i in number if i % 2 == 0]
+
+print(result)
